@@ -1,0 +1,5 @@
+= form_with( model: @form ,url: memos_path, method: :post, html: {class: "memos-form"}) do |f|
+  = f.fields_for :memos do |i|
+    = i.text_field :title, class: "memos-form__title"
+    - byebug
+  = f.submit "送信", class: "memos-form__submit"
