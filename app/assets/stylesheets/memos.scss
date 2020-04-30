@@ -3,15 +3,28 @@
 // You can use Sass (SCSS) here: https://sass-lang.com/
 
 .memos-form {
-  display: flex;
-  flex-direction: column;
-  &__title {
-    width: 500px;
-    height: 30px;
-    padding: 0 10px;
-    margin: 10px 0;
+  &__titles{
+    display: flex;
+    flex-direction: column;
+    .memos-form__title {
+      width: 500px;
+      height: 30px;
+      padding: 0 10px;
+      margin: 10px 0;
+    }
   }
   
+  .add-memo-form-btn {
+    display: block;
+    font-size: 10px;
+    width: 200px;
+    height: 30px;
+    padding: 10px;
+    text-align: center;
+    background-color: #f8d55a;
+    margin-bottom: 10px;
+  }
+
   &__submit {
     display: block;
     width: 200px;

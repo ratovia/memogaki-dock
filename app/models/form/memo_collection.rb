@@ -1,5 +1,5 @@
 class Form::MemoCollection < Form::Base
-  FORM_COUNT = 3
+  FORM_COUNT = 1
   attr_accessor :memos
 
   def initialize(attributes = {})
